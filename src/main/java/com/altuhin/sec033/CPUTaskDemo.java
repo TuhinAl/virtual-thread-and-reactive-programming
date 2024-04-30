@@ -1,12 +1,12 @@
 package com.altuhin.sec033;
 
-import com.altuhin.utills.CommonUtills;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.CountDownLatch;
 
-import static com.altuhin.utills.CommonUtills.timer;
+import static com.altuhin.util.CommonUtil.timer;
+
 
 public class CPUTaskDemo {
 
@@ -24,11 +24,11 @@ public class CPUTaskDemo {
 //        demo(Thread.ofPlatform());
         //demo(Thread.ofVirtual().name("Virtual- ", 1));
         for (int i = 0; i < 3; i++) {
-            var totalTimeCount = CommonUtills.timer(()->{
+            var totalTimeCount = timer(()->{
                 demo(Thread.ofVirtual());
             });
             log.info("total time taken with Virtual Thread {} ms", totalTimeCount);
-             totalTimeCount = CommonUtills.timer(()->{
+             totalTimeCount = timer(()->{
                 demo(Thread.ofPlatform());
             });
             log.info("total time taken with Platform Thread {} ms", totalTimeCount);

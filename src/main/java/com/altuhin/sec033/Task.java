@@ -3,10 +3,7 @@ package com.altuhin.sec033;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.time.Duration;
-
-import static com.altuhin.utills.CommonUtills.timer;
-
+import static com.altuhin.util.CommonUtil.timer;
 
 public class Task {
 

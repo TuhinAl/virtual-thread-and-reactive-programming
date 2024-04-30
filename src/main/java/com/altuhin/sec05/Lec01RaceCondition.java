@@ -7,7 +7,8 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.altuhin.utills.CommonUtills.sleep;
+import static com.altuhin.util.CommonUtil.sleep;
+
 
 public class Lec01RaceCondition {
     private static final Logger log = LoggerFactory.getLogger(Lec01RaceCondition.class);

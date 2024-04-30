@@ -8,6 +8,7 @@ public class InboundOutboundTaskDemo {
     private static final int MAX_VIRTUAL = 10;
 
     public static void main(String[] args) throws InterruptedException {
+//        platformThreadDemo1();
         virtualThreadDemo();
     }
 

@@ -5,7 +5,8 @@ import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 
-import static com.altuhin.utills.CommonUtills.sleep;
+import static com.altuhin.util.CommonUtil.sleep;
+
 
 public class CooperativeSchedulingDemo {
     private static final Logger log = LoggerFactory.getLogger(CooperativeSchedulingDemo.class);

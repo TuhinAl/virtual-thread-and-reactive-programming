@@ -1,8 +1,9 @@
-package com.altuhin.utills;
+package com.altuhin.util;
 
 import java.time.Duration;
 
-public class CommonUtills {
+public class CommonUtil {
+
 
     public static void sleep(Duration duration) {
         try {
