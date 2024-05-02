@@ -11,8 +11,22 @@ A Thread is a unit of program or part of process that share the same memory spac
 # When we run a Java Program
 1. It will create a process
 2. It will create and JVM instance
+3.  ![alt text](images/process_and_instances.png)
 
-https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github 22:34
+### Code Segment and Data Segment
+![alt text](images/code_and_data_segment.png)
+
+### Heap
+![alt text](images/heap.png)
+
+### Stack and Register
+![alt text](images/stack_and_register.png)
+### Counter
+![alt text](images/counter.png)
+
+### JVM Simulation
+![alt text](images/jvm1.png)
+![alt text](images/jvm2.png)
 
 # I/O using thread.sleep()
 
