@@ -2,12 +2,17 @@
 
 Process: 
 =======
-A process is an instance of a computer program which has its own isolated memory space. (unit of resources)
+A process is an instance of a computer program which has its own isolated memory space and getting executed . (unit of resources)
 
-Thread: 
+Thread:
 ======
 A Thread is a unit of program or part of process that share the same memory space.(unit of execution)
 
+# When we run a Java Program
+1. It will create a process
+2. It will create and JVM instance
+
+https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github 22:34
 
 # I/O using thread.sleep()
 
