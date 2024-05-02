@@ -28,7 +28,94 @@ A Thread is a unit of program or part of process that share the same memory spac
 ![alt text](images/part01ThreadProcessMemoryModel/jvm1.png)
 ![alt text](images/part01ThreadProcessMemoryModel/jvm2.png)
 
-# I/O using thread.sleep()
+### Definition of Multithreading
+![alt text](images/part01ThreadProcessMemoryModel/multithreading_def.png)
+
+### Benefits and Challenges of Multithreading
+![alt text](images/part01ThreadProcessMemoryModel/benefits_and_challenges.png)
+
+#### Multitasking and MultiThreading
+Multitasking is like multiple process and MultiThreading is use multiple thread.
+
+# Part01: Thread Creation, Thread LifeCycle and Inter-Thread Communication
+
+![alt text](images/part02Thread/ss1.png)
+![alt text](images/part02Thread/ss2.png)
+![alt text](images/part02Thread/ss3.png)
+![alt text](images/part02Thread/ss4.png)
+![alt text](images/part02Thread/ss5.png)
+![alt text](images/part02Thread/ss6.png)
+![alt text](images/part02Thread/ss7.png)
+![alt text](images/part02Thread/ss8.png)
+![alt text](images/part02Thread/ss9.png)
+![alt text](images/part02Thread/ss10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### I/O using thread.sleep()
 
 # virtual threads are daemon threads by default.
 
