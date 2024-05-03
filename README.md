@@ -50,6 +50,21 @@ Multitasking is like multiple process and MultiThreading is use multiple thread.
 ![alt text](images/part02Thread/ss9.png)
 ![alt text](images/part02Thread/ss10.png)
 
+# Part01: Thread Joining and Producer Consumer problem
+
+![alt text](images/part03ThreadJoinProducerConsumer/ss1.png)
+![alt text](images/part03ThreadJoinProducerConsumer/ss2.png)
+![alt text](images/part03ThreadJoinProducerConsumer/part3and4.png)
+![alt text](images/part03ThreadJoinProducerConsumer/Q1.png)
+![alt text](images/part03ThreadJoinProducerConsumer/join.png)
+
+## Thread Priority
+![alt text](images/part04ThreadPrioroty/threadPriority.png)
+
+## Daemon Thread
+[Something which is running in ASYNC manner known asa daemon thread]
+![alt text](images/part04ThreadPrioroty/threadPriority.png)
+
 
 
 
