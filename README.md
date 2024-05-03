@@ -8,6 +8,16 @@ Thread:
 ======
 A Thread is a unit of program or part of process that share the same memory space.(unit of execution)
 
+# MultiThreading and Concurrency Syllabus
+![alt text](images/part01ThreadProcessMemoryModel/syl1.png)<br>
+![alt text](images/part01ThreadProcessMemoryModel/syl2.png)<br>
+![alt text](images/part01ThreadProcessMemoryModel/syl3.png)<br>
+![alt text](images/part01ThreadProcessMemoryModel/syl4.png)
+![alt text](images/part01ThreadProcessMemoryModel/syl5.png)
+![alt text](images/part01ThreadProcessMemoryModel/syl6.png)
+![alt text](images/part01ThreadProcessMemoryModel/syl7.png)
+
+
 # When we run a Java Program
 1. It will create a process
 2. It will create and JVM instance
@@ -39,8 +49,8 @@ Multitasking is like multiple process and MultiThreading is use multiple thread.
 
 # Part01: Thread Creation, Thread LifeCycle and Inter-Thread Communication
 
-![alt text](images/part02Thread/ss1.png)
-![alt text](images/part02Thread/ss2.png)
+![alt text](images/part02Thread/ss1.png)<br>
+![alt text](images/part02Thread/ss2.png)<br>
 ![alt text](images/part02Thread/ss3.png)
 ![alt text](images/part02Thread/ss4.png)
 ![alt text](images/part02Thread/ss5.png)
@@ -64,6 +74,15 @@ Multitasking is like multiple process and MultiThreading is use multiple thread.
 ## Daemon Thread
 [Something which is running in ASYNC manner known asa daemon thread]
 ![alt text](images/part04ThreadPrioroty/threadPriority.png)
+
+## Lock and Condition (Multithreading Part4)
+![alt text](images/part05Lock/ss0.png)
+![alt text](images/part05Lock/ss1.png)
+![alt text](images/part05Lock/ss2.png)
+![alt text](images/part05Lock/ss3.png)
+![alt text](images/part05Lock/ss4.png)
+![alt text](images/part05Lock/ss5.png)
+![alt text](images/part05Lock/ss6.png)
 
 
 
