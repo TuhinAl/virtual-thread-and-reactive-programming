@@ -51,22 +51,22 @@ Multitasking is like multiple process and MultiThreading is use multiple thread.
 
 ![alt text](images/part02Thread/ss1.png)<br>
 ![alt text](images/part02Thread/ss2.png)<br>
-![alt text](images/part02Thread/ss3.png)
-![alt text](images/part02Thread/ss4.png)
-![alt text](images/part02Thread/ss5.png)
-![alt text](images/part02Thread/ss6.png)
-![alt text](images/part02Thread/ss7.png)
-![alt text](images/part02Thread/ss8.png)
-![alt text](images/part02Thread/ss9.png)
-![alt text](images/part02Thread/ss10.png)
+![alt text](images/part02Thread/ss3.png)<br>
+![alt text](images/part02Thread/ss4.png)<br>
+![alt text](images/part02Thread/ss5.png)<br>
+![alt text](images/part02Thread/ss6.png)<br>
+![alt text](images/part02Thread/ss7.png)<br>
+![alt text](images/part02Thread/ss8.png)<br>
+![alt text](images/part02Thread/ss9.png)<br>
+![alt text](images/part02Thread/ss10.png)<br>
 
 # Part01: Thread Joining and Producer Consumer problem
 
-![alt text](images/part03ThreadJoinProducerConsumer/ss1.png)
-![alt text](images/part03ThreadJoinProducerConsumer/ss2.png)
-![alt text](images/part03ThreadJoinProducerConsumer/part3and4.png)
-![alt text](images/part03ThreadJoinProducerConsumer/Q1.png)
-![alt text](images/part03ThreadJoinProducerConsumer/join.png)
+![alt text](images/part03ThreadJoinProducerConsumer/ss1.png)<br>
+![alt text](images/part03ThreadJoinProducerConsumer/ss2.png)<br>
+![alt text](images/part03ThreadJoinProducerConsumer/part3and4.png)<br>
+![alt text](images/part03ThreadJoinProducerConsumer/Q1.png)<br>
+![alt text](images/part03ThreadJoinProducerConsumer/join.png)<br>
 
 ## Thread Priority
 ![alt text](images/part04ThreadPrioroty/threadPriority.png)
@@ -76,56 +76,63 @@ Multitasking is like multiple process and MultiThreading is use multiple thread.
 ![alt text](images/part04ThreadPrioroty/threadPriority.png)
 
 ## Lock and Condition (Multithreading Part4)
-![alt text](images/part05Lock/ss0.png)
-![alt text](images/part05Lock/ss1.png)
-![alt text](images/part05Lock/ss2.png)
-![alt text](images/part05Lock/ss3.png)
-![alt text](images/part05Lock/ss4.png)
-![alt text](images/part05Lock/ss5.png)
-![alt text](images/part05Lock/ss6.png)
+![alt text](images/part05Lock/ss0.png)<br>
+![alt text](images/part05Lock/ss1.png)<br>
+![alt text](images/part05Lock/ss2.png)<br>
+![alt text](images/part05Lock/ss3.png)<br>
+![alt text](images/part05Lock/ss4.png)<br>
+![alt text](images/part05Lock/ss5.png)<br>
+![alt text](images/part05Lock/ss6.png)<br>
 
 ## Lock Free Concurrency (CAS): (Multithreading Part5)
-![alt text](images/part06LockFreeConcurrency/ss1.png)
-![alt text](images/part06LockFreeConcurrency/ss2.png)
-![alt text](images/part06LockFreeConcurrency/ss3.png)
-![alt text](images/part06LockFreeConcurrency/ss4.png)
-![alt text](images/part06LockFreeConcurrency/ss5.png)
-![alt text](images/part06LockFreeConcurrency/ss6.png)
-![alt text](images/part06LockFreeConcurrency/ss7.png)
+![alt text](images/part06LockFreeConcurrency/ss1.png)<br>
+![alt text](images/part06LockFreeConcurrency/ss2.png)<br>
+![alt text](images/part06LockFreeConcurrency/ss3.png)<br>
+![alt text](images/part06LockFreeConcurrency/ss4.png)<br>
+![alt text](images/part06LockFreeConcurrency/ss5.png)<br>
+![alt text](images/part06LockFreeConcurrency/ss6.png)<br>
+![alt text](images/part06LockFreeConcurrency/ss7.png)<br>
 
 
 ## Thread Pool and ExecutorService: (Multithreading Part6)
-![alt text](images/part07ThreadPool/ss1.png)
-![alt text](images/part07ThreadPool/ss2.png)
-![alt text](images/part07ThreadPool/ss3.png)
-![alt text](images/part07ThreadPool/ss4.png)
-![alt text](images/part07ThreadPool/ss5.png)
-![alt text](images/part07ThreadPool/ss6.png)
-![alt text](images/part07ThreadPool/ss7.png)
+![alt text](images/part07ThreadPool/ss1.png)<br>
+![alt text](images/part07ThreadPool/ss2.png)<br>
+![alt text](images/part07ThreadPool/ss3.png)<br>
+![alt text](images/part07ThreadPool/ss4.png)<br>
+![alt text](images/part07ThreadPool/ss5.png)<br>
+![alt text](images/part07ThreadPool/ss6.png)<br>
+![alt text](images/part07ThreadPool/ss7.png)<br>
 
 ## Thread Pools and ThreadPoolExecutor (lec-46)
-![alt text](images/part07ThreadPool/ss8.png)
-![alt text](images/part07ThreadPool/ss9.png)
-![alt text](images/part07ThreadPool/ss10.png)
-![alt text](images/part07ThreadPool/ss11.png)
-![alt text](images/part07ThreadPool/ss12.png)
-![alt text](images/part07ThreadPool/ss13.png)
-![alt text](images/part07ThreadPool/ss14.png)
+![alt text](images/part07ThreadPool/ss8.png)<br>
+![alt text](images/part07ThreadPool/ss9.png)<br>
+![alt text](images/part07ThreadPool/ss10.png)<br>
+![alt text](images/part07ThreadPool/ss11.png)<br>
+![alt text](images/part07ThreadPool/ss12.png)<br>
+![alt text](images/part07ThreadPool/ss13.png)<br>
+![alt text](images/part07ThreadPool/ss14.png)<br>
 
 ## Future, CompletableFuture and Callable (lec-47)
-![alt text](images/part08Future/ss1.png)
-![alt text](images/part08Future/ss2.png)
-![alt text](images/part08Future/ss3.png)
-![alt text](images/part08Future/ss4.png)
-![alt text](images/part08Future/ss5.png)
-![alt text](images/part08Future/ss6.png)
-![alt text](images/part08Future/ss7.png)
-![alt text](images/part08Future/ss8.png)
-![alt text](images/part08Future/ss9.png)
-![alt text](images/part08Future/ss10.png)
-![alt text](images/part08Future/ss11.png)
-![alt text](images/part08Future/ss12.png)
-![alt text](images/part08Future/ss13.png)
+![alt text](images/part08Future/ss1.png)<br>
+![alt text](images/part08Future/ss2.png)<br>
+![alt text](images/part08Future/ss3.png)<br>
+![alt text](images/part08Future/ss4.png)<br>
+![alt text](images/part08Future/ss5.png)<br>
+![alt text](images/part08Future/ss6.png)<br>
+![alt text](images/part08Future/ss7.png)<br>
+![alt text](images/part08Future/ss8.png)<br>
+![alt text](images/part08Future/ss9.png)<br>
+![alt text](images/part08Future/ss10.png)<br>
+![alt text](images/part08Future/ss11.png)<br>
+![alt text](images/part08Future/ss12.png)<br>
+![alt text](images/part08Future/ss13.png)<br>
+
+## Java - Fork/Join Pool, Single, Fixed, CachedPool (lec-49)
+![alt text](images/part09ThreadPoolTypes/ss1.png)<br>
+![alt text](images/part09ThreadPoolTypes/ss2.png)<br>
+![alt text](images/part09ThreadPoolTypes/ss3.png)<br>
+![alt text](images/part09ThreadPoolTypes/ss4.png)<br>
+![alt text](images/part09ThreadPoolTypes/ss5.png)<br>
 
 
 
