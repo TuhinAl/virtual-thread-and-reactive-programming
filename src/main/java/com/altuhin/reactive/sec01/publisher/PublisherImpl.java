@@ -11,7 +11,10 @@ public class PublisherImpl implements Publisher<String> {
 
     @Override
     public void subscribe(Subscriber<? super String> subscriber) {
+        //hey subscription you take the subscriber
         var subscription = new SubscriptionImpl(subscriber);
+        //hey subscriber, you take the subscription
         subscriber.onSubscribe(subscription);
     }
+
 }

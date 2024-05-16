@@ -134,71 +134,6 @@ Multitasking is like multiple process and MultiThreading is use multiple thread.
 ![alt text](images/thread/part09ThreadPoolTypes/ss4.png)<br>
 ![alt text](images/thread/part09ThreadPoolTypes/ss5.png)<br>
 
-# Reactive Programming masterclass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### I/O using thread.sleep()
 
 # virtual threads are daemon threads by default.
@@ -240,11 +175,66 @@ It is High level concurrency framework, that is used for Thread management and T
 Virtual Threads are not supposed to be pooled.
 
 
-### Difference between ThreadPool and Executor Service:
+#### Difference between ThreadPool and Executor Service:
 
-### Difference between Asynchronous and Non-Blocking:
+#### Difference between Asynchronous and Non-Blocking:
 
-### Difference between shutdown() and shutdownNow():
+#### Difference between shutdown() and shutdownNow():
 
-### Are we suppose to use ExecutorService with try-with-resource always?
+#### Are we supposed to use ExecutorService with try-with-resource always?
  Ans: It depends. 
+
+
+
+# Reactive Programming masterclass
+![alt text](images/reactive/mono_ss1.png)<br>
+
+#### On Thing please remember: In Reactive Programming, we have to do Subscribe + Request. without Request, Subscription will not working;
+
+#### Mono Subscribe overloaded
+[Lec03MonoSubscribe.java]
+
+#### Creating default Subscriber
+[DefaultSubscriber.java & Util.java]
+
+#### Mono Empty/Error
+[Lec04MonoEmptyError.java]
+
+#### onError Dropped Problem
+getUsername(34).subscribe(
+s -> System.out.println(s)
+); //onNext()
+
+The console fays "Operator called default onErrorDropped" what is this meaning? ans: dont be panic
+actually. It is what the reactor says that, hey you have subscribed to a publisher, that publisher did not give
+any item, instead it gives one error message. you have provided only the data handler --subscribe(
+s -> System.out.println(s)
+); what about the error handler? you have not provided any error handler so, I did not know what to do with this error
+Soln:
+subscribe(
+s -> System.out.println(s),
+err -> {}
+);
+
+#### Mono - From Supplier 
+
+Mono.just() - just() can be use when, whatever you want to send, that value
+is already in the memory. for CPU task.
+
+to delay the execution we will use Mono.fromSupplier()
+Mono.fromSupplier() -> If you want to delay the CPU intensive operation
+then we can use fromSupplier().
+
+#### Mono - From Callable 
+
+Callable vs Supplier: 
+Callable: to wrap the behavior, to sum it as a task to get that executed by an executor service
+it throw exception.
+
+Supplier: Supplier will not throw exception. it can throw runtime exception but it does not have
+checked exception.
+
+#### Mono - From Runnable:
+If you want to do some method invocation(ex: product 3tar niche neme geche druto admin k notify korte hbe), only after method invocation
+if you have to send the empty then we can use Runnable.
+emitting empty after some method invocation

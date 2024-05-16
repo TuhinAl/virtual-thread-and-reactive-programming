@@ -8,7 +8,6 @@ package com.altuhin.reactive.sec01;
  */
 
 import com.altuhin.reactive.sec01.publisher.PublisherImpl;
-import com.altuhin.reactive.sec01.publisher.SubscriptionImpl;
 import com.altuhin.reactive.sec01.subscriber.SubscriberImpl;
 
 public class Demo {
