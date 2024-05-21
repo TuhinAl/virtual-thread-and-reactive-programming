@@ -237,4 +237,17 @@ checked exception.
 #### Mono - From Runnable:
 If you want to do some method invocation(ex: product 3tar niche neme geche druto admin k notify korte hbe), only after method invocation
 if you have to send the empty then we can use Runnable.
-emitting empty after some method invocation
+emitting empty after some method invocation.
+
+#### Mono - Defer:
+This will be useful if you want to delay the Publisher creation.
+
+we are assuming that Publisher is not a time-consuming operation.
+
+![alt text](images/reactive/mono/mono_data.png)<br>
+
+#### Non-Blocking IO client (reactor netty HttpClient:
+(a) what is EventLoopGroup:
+(b) what is LoopResources:
+(c) what is ByteBuffer: ByteBuffer is a container of bytes.
+(d) what is ByteBufFlux: FLux of byte buffer.
