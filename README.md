@@ -251,3 +251,9 @@ we are assuming that Publisher is not a time-consuming operation.
 (b) what is LoopResources:
 (c) what is ByteBuffer: ByteBuffer is a container of bytes.
 (d) what is ByteBufFlux: FLux of byte buffer.
+
+# Flux - Emitting Items programmatically:
+
+### Flux Sink
+
+![alt text](images/reactive/flux/flux_sink.png)<br>
