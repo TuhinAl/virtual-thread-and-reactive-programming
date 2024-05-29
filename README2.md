@@ -1,17 +1,27 @@
-# virtual-thread-and-reactive-programming
+[//]: # (# virtual-thread-and-reactive-programming)
 
-Process: 
-=======
-A process is an instance of a computer program which has its own isolated memory space and getting executed . (unit of resources)
+[//]: # ()
+[//]: # (Process: )
 
-Thread:
-======
-A Thread is a unit of program or part of process that share the same memory space.(unit of execution)
+[//]: # (=======)
 
-# MultiThreading and Concurrency Syllabus
-![alt text](images/thread/part01ThreadProcessMemoryModel/syl1.png)<br>
-![alt text](images/thread/part01ThreadProcessMemoryModel/syl2.png)<br>
-![alt text](images/thread/part01ThreadProcessMemoryModel/syl3.png)<br>
+[//]: # (A process is an instance of a computer program which has its own isolated memory space and getting executed . &#40;unit of resources&#41;)
+
+[//]: # ()
+[//]: # (Thread:)
+
+[//]: # (======)
+
+[//]: # (A Thread is a unit of program or part of process that share the same memory space.&#40;unit of execution&#41;)
+
+[//]: # ()
+[//]: # (# MultiThreading and Concurrency Syllabus)
+
+[//]: # (![alt text]&#40;images/thread/part01ThreadProcessMemoryModel/syl1.png&#41;<br>)
+
+[//]: # (![alt text]&#40;images/thread/part01ThreadProcessMemoryModel/syl2.png&#41;<br>)
+
+[//]: # (![alt text]&#40;images/thread/part01ThreadProcessMemoryModel/syl3.png&#41;<br>)
 
 
 

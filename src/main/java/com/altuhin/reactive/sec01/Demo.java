@@ -3,7 +3,8 @@ package com.altuhin.reactive.sec01;
 /*
    1. publisher does not produce data unless subscriber requests for it.
    2. publisher will produce only <= subscriber requested items. publisher can also produce 0 items!
-   3. subscriber can cancel the subscription. producer should stop at that moment as subscriber is no longer interested in consuming the data
+   3. subscriber can cancel the subscription. producer should stop at that moment as subscriber is no longer
+    interested in consuming the data
    4. producer can send the error signal
  */
 

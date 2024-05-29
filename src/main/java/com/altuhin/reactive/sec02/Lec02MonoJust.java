@@ -6,7 +6,8 @@ import com.altuhin.reactive.sec01.subscriber.SubscriberImpl;
 import reactor.core.publisher.Mono;
 
 /**
- * On Thing please remember: In Reactive Programming, we have to do Subscribe + Request. without Request, Subscription will not workign;
+ *   N:B Mono is Use just when the value to be emitted is already in the memory
+ *
  */
 
 public class Lec02MonoJust {
