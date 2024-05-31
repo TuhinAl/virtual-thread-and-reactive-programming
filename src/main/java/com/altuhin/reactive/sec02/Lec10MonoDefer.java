@@ -25,7 +25,7 @@ public class Lec10MonoDefer {
     private static Mono<Integer> createPublisher() {
         List<Integer> list = List.of(1, 2, 3, 4);
         log.info("creating publisher.");
-        Util.sleepSeconds(1);
+        Util.sleepSeconds(1); // defer
         return  Mono.fromSupplier(() -> sum(list));  //Publisher
     }
 

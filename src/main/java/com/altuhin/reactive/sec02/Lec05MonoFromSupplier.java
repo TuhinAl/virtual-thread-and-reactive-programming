@@ -8,6 +8,12 @@ import reactor.core.publisher.Mono;
 
 import java.util.List;
 
+/**
+ * To delay the execution using supplier / callable
+ * The Supplier simply provides a value without throwing checked exceptions.
+ * The Supplier interface has a single method get() which does not throw checked exceptions.
+ * Suitable for operations that do not involve any exceptions or blocking calls.
+ */
 
 public class Lec05MonoFromSupplier {
     private static final Logger log = LoggerFactory.getLogger(Lec05MonoFromSupplier.class);

@@ -1,9 +1,14 @@
 package com.altuhin.reactive.sec02;
 
 
+import com.altuhin.reactive.sec01.objpublisher.Employee;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
+
+import java.util.List;
+
+import static com.altuhin.reactive.sec01.objpublisher.Employee.getEmployees;
 
 
 public class Lec03MonoSubscribe {
@@ -11,8 +16,10 @@ public class Lec03MonoSubscribe {
 
     public static void main(String[] args) {
         // we will create Publisher using mono
-        Mono<String> mono = Mono.just("Tuhin");
-        mono.subscribe(i -> log.info("received: {}", i));
+        List<Employee> employeeList = getEmployees();
+
+        Mono<List<Employee>> mono = Mono.just(employeeList);
+//        mono.subscribe(i -> log.info("received: {}", i));
     /**
      * at this point you might have two questions:
      * (Question:-1) where is the Completed? last time it was printed.
