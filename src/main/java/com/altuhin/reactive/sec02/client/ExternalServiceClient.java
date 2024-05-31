@@ -14,4 +14,13 @@ public class ExternalServiceClient extends AbstractHttpClient {
                 .next(); // convert Flux into Mono
 
     }
+
+    public Mono<String> getPriceList() {
+      return   this.httpClient.get()
+                .uri("/demo02/name/stream")
+                .responseContent()
+                .asString()
+                .next(); // convert Flux into Mono
+
+    }
 }
